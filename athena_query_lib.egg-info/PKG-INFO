@@ -2,6 +2,7 @@ Metadata-Version: 2.1
 Name: athena_query_lib
 Version: 1.0.0
 Summary: A library for querying AWS Athena and saving results.
+Home-page: https://github.com/AnyamaneePloy/athena-query-lib.git
 Author: Anyamanee P.
 Author-email: anyamanee@techgateway.co.th
 Classifier: Programming Language :: Python :: 3
@@ -13,11 +14,4 @@ Requires-Dist: boto3
 Requires-Dist: pandas
 Requires-Dist: python-dotenv
 
-# Athena Query Library
-
-A Python library for querying AWS Athena and processing results as pandas DataFrames.
-
-## Installation
-
-```bash
-pip install athena-query-lib
+# athena-query-lib
