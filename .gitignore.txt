@@ -6,7 +6,7 @@ output/
 *.tmp
 *.log
 *.pypirc
-*.env*
+*.env
 
 # Ignore compiled Python files
 __pycache__/
