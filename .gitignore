@@ -1,0 +1,6 @@
+# Ignore Python virtual environments 
+.venvlib/
+output/
+test_athena_query_lib/
+.env.aws
+.pypirc
