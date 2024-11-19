@@ -6,7 +6,7 @@ output/
 *.tmp
 *.log
 *.pypirc
-*.env
+*.env.aws
 
 # Ignore compiled Python files
 __pycache__/
