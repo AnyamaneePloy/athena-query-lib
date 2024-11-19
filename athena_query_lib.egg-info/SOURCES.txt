@@ -1,0 +1,9 @@
+README.md
+setup.py
+athena_query_lib/__init__.py
+athena_query_lib/query_handler.py
+athena_query_lib.egg-info/PKG-INFO
+athena_query_lib.egg-info/SOURCES.txt
+athena_query_lib.egg-info/dependency_links.txt
+athena_query_lib.egg-info/requires.txt
+athena_query_lib.egg-info/top_level.txt
