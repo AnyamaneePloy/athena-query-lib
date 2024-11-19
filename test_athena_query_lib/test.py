@@ -20,7 +20,7 @@ handler = AthenaQueryHandler(
 file_path = 'dblist.txt' 
 with open(file_path, 'r') as file:
     table_names = file.read().splitlines()  # Removes the newline character
-    print(table_names)
+    # print(table_names)
 
 print("Available tables:")
 for idx, table in enumerate(table_names):
@@ -31,7 +31,7 @@ table_index = int(input(f"Please select a table by entering the corresponding nu
 selected_table_name = table_names[table_index - 1]
 
 # Execute a query
-query = f"SELECT * FROM {selected_table_name} LIMIT 100;"
+query = f"SELECT * FROM {selected_table_name} LIMIT 100000;"
 df = handler.execute_query("scbdev_pst_catdb", query)
 
 handler.show_for_power_bi(df)
